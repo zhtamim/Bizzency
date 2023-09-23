@@ -1,0 +1,87 @@
+/* common css start */
+*{
+    outline: 0;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+ font-family: 'Open Sans', sans-serif;   
+}
+h1,h2{
+    font-family: 'Abril Fatface', cursive;
+}
+h3,h4,h5,h6,button,a{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width:1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify_content{
+    justify-content: space-between;
+}
+
+/* common css start */
+
+/* top bar section start */
+#top_bar{
+    background-color: #0f2f44;
+}
+#top_bar p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color:#f4f5f5;
+    padding:13px 0;
+
+}
+/* top bar section end */
+
+/* menu bar start */
+#menu_bar .row{
+    align-items: center;
+}
+#menu_bar ul li a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color:#222222;
+    padding: 40px 19px;
+    text-transform: capitalize;
+    transition: .5s;
+}
+#menu_bar ul li a:hover{
+    background-color:#fff9e6 ;
+    color:#ffd55c;
+
+}
+#menu_bar ul li button{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    border:1px solid #e0e0e0;
+    margin-left: 20px;
+}
+#menu_bar ul li button:hover{
+    background-color:#fff9e6 ;
+    color:#ffd55c;
+    cursor: pointer;
+}
+
+/* menu bar end */
